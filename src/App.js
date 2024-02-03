@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <button onClick={handleClick}>Click me</button>
       <>
-        <Drawer anchor={"right"} open={open} onClose={() => setOpen(false)}>
-          <div style={{ width: "400px", textAlign: "center" }}>
+        <Drawer anchor={"bottom"} open={open} onClose={() => setOpen(false)}>
+          <div style={{ height: "400px", textAlign: "center" }}>
             <button onClick={() => setOpen(false)}>close</button>
           </div>
         </Drawer>
